@@ -1,0 +1,19 @@
+{
+  "name": "cadastro-em-nodejs",
+  "version": "1.0.0",
+  "description": "Criação de cadastro simples para estudos em NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gustavo053/Cadastrado-em-NodeJS.git"
+  },
+  "author": "Gustavo Pereira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gustavo053/Cadastrado-em-NodeJS/issues"
+  },
+  "homepage": "https://github.com/Gustavo053/Cadastrado-em-NodeJS#readme"
+}

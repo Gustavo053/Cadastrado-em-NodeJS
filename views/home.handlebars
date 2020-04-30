@@ -1,0 +1,9 @@
+<h1>Tópicos cadastrados:</h1>
+<a href="/cad"><button type="button" class="btn btn-info">CADASTRAR TÓPICO</button></a>
+<hr />
+
+{{#each posts}}
+<h3>{{dataValues.titulo}}</h3>
+<p>{{dataValues.conteudo}}</p>
+<a href="/delete/{{dataValues.id}}"><button type="button" class="btn btn-danger">DELETAR TÓPICO</button></a>
+{{/each}}
