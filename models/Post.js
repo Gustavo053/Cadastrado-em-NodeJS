@@ -1,5 +1,6 @@
 const db = require('./db');
 
+//defining table
 const Post = db.sequelize.define('postagens', {
     titulo: {
         type: db.Sequelize.STRING
@@ -10,6 +11,7 @@ const Post = db.sequelize.define('postagens', {
     }
 });
 
+//created table
 // Post.sync();
 
 module.exports = Post;
